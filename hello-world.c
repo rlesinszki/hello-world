@@ -44,6 +44,10 @@ int main(int argc, char **argv) {
   printf("tm_yday: %d\n", cur_time->tm_yday);
   printf("tm_isdst: %d\n", cur_time->tm_isdst);
   
+  char s[100];
+  strftime(s, 100, "%c", cur_time);
+  printf("%s\n", s);
+  
   return 0;
 }
 
