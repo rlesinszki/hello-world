@@ -1,5 +1,7 @@
 /* hello-world.c
 *
+* time tutorial
+* https://www.youtube.com/watch?v=Qoed2uBwF_o
 */
 
 #include <stdio.h>
